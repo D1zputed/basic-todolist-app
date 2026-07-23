@@ -15,7 +15,7 @@
         <vm:MainViewModel />
     </Design.DataContext>
 
-    <TextBox Text="{Binding Greeting}"
+    <TextBox 
              HorizontalAlignment="Center"
              VerticalAlignment="Center" />
 
