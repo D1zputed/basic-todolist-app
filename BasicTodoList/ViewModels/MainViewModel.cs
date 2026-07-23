@@ -1,0 +1,10 @@
+using CommunityToolkit.Mvvm.ComponentModel;
+
+namespace BasicTodoList.ViewModels
+{
+    public partial class MainViewModel : ViewModelBase
+    {
+        [ObservableProperty]
+        public partial string Greeting { get; set; } = "Welcome to Avalonia!";
+    }
+}
